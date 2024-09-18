@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./sty.css">
+</head>
+
+<body>
+    <section>
+        <div class="bubbles">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          
+        </div>
+        <div class="circle"></div>
+  
+        
+        <header>
+             <div class ="logo"></div> 
+          
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Whats new </a></li>
+                <li><a href="#">Contact </a></li>
+            </ul>
+
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h1>Things go <br>better <br>with <span>coke</span></bnr>
+                </h1>
+                <br> <br> 
+                <p>Discover the timeless taste of Coca-Cola, a symphony of flavors that has been delighting generations
+                    for over a century. <br> From its first effervescent sip to the last, Coca-Cola's unique blend of
+                    sweetness and fizziness is an unmatched sensation.  Embrace the
+                    classic, embrace the joy – raise a glass to life with Coca-Cola!
+                </p>
+                <a href="#">learn more</a>
+            </div>
+             <img class="img" src="./cola.png">
+        </div>
+        <ul class="theme">
+            <li><img class ="click" src=  "./cola.png"></li>
+            <li><img class ="click" src=  "./cola1.png"></li>
+        </ul>
+        <ul class="sci" >
+            <li><a href="#"><i class=" fa-brands fa-facebook fa-4x" style="color: #ffffff;" ></i></a></li>
+            <li><a href="#"><i class=" fa-brands fa-instagram fa-4x" style="color: #ffffff;"></i></a></li>
+            
+            <li><a href="#"><i class=" fa-brands fa-twitter fa-4x" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </section>
+</body>
+<script >
+    const li=document.querySelectorAll('.click')
+    const img=document.querySelector('.img')
+    li.forEach((e)=>{
+        e.addEventListener('click',()=>{
+                img.setAttribute("src",e.getAttribute("src"))
+        })
+    })
+
+
+
+</script>
+<script src="https://kit.fontawesome.com/20109ae9af.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</html>
