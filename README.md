@@ -16,3 +16,5 @@ This project showcases a responsive landing page for Coca-Cola, designed to capt
 - Responsive Layout: Adapts seamlessly to various screen sizes (desktop, tablet, and mobile) for optimal viewing across all devices.
 - User-Friendly Navigation: Intuitive navigation allows visitors to easily explore product information, find local stores, and learn more about the Coca-Cola brand.
 - Built with: HTML5, CSS3 (including Flexbox and Grid), and JavaScript
+
+### Deployed on Render
