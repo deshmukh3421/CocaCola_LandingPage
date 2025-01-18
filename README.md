@@ -2,6 +2,8 @@
 
 This video demonstrates the functionality of our website. You can see how users can interact with the site and how the different features work.
 
+https://github.com/user-attachments/assets/1871cc72-77e1-457f-920b-4ed58d539416
+
 
 # CocaCola_LandingPage 
 A responsive landing page built with HTML, CSS, and Javascript.
